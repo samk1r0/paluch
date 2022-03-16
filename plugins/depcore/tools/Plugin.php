@@ -63,12 +63,10 @@ class Plugin extends PluginBase
      */
     public function registerPermissions()
     {
-        return []; // Remove this line to activate
-
         return [
             'depcore.tools.create_tools' => [
                 'tab' => 'depcore.tools::lang.plugin.name',
-                'label' => 'depcore.tools::lang.permissions.some_permission'
+                'label' => 'depcore.tools::lang.permissions.access_tools'
             ],
         ];
     }
