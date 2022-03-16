@@ -11,6 +11,8 @@ use Depcore\Tools\Models\tool;
  */
 class Tools extends Controller
 {
+    public $requiredPermissions = ['depcore.tools.create_tools'];
+
     public $implement = [
         'Backend.Behaviors.FormController',
         'Backend.Behaviors.ListController',
