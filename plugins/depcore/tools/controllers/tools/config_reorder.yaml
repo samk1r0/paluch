@@ -1,0 +1,2 @@
+modelClass: Depcore\Tools\Models\Tool
+nameFrom: name

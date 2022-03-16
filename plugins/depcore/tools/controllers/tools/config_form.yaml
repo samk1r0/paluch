@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: depcore.tools::lang.tool.label
+
+# Model Form Field configuration
+form: $/depcore/tools/models/tool/fields.yaml
+
+# Model Class name
+modelClass: Depcore\Tools\Models\Tool
+
+# Default redirect location
+defaultRedirect: depcore/tools/tools
+
+# Create page
+create:
+    title: depcore.tools::lang.tool.create_title
+    redirect: depcore/tools/tools/update/:id
+    redirectClose: depcore/tools/tools
+
+# Update page
+update:
+    title: depcore.tools::lang.tool.update_title
+    redirect: depcore/tools/tools
+    redirectClose: depcore/tools/tools
+
+# Preview page
+preview:
+    title: depcore.tools::lang.tool.preview_title
